@@ -1,0 +1,1 @@
+"Eu, afonso cavichioli alves, iniciei a estrutura do repositório para o Sistema de OS, criando o arquivo README.md e a estrutura de pastas conforme o planejamento das 10 Sprints.
