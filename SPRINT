@@ -1,0 +1,93 @@
+1. ROADMAP DO PROJETO (10 SPRINTS)
+• definição de requisitos
+• planejamento
+• ciclos ágeis (Sprints)
+• revisão e entrega contínua
+Roadmap Geral
+Sprint Objetivo Principal
+Sprint 1 Levantamento de requisitos e planejamento
+Sprint 2 Modelagem do sistema (protótipo e arquitetura)
+Sprint 3 Cadastro de usuários
+Sprint 4 Cadastro de clientes
+Sprint 5 Cadastro de serviços
+Sprint 6 Criação de ordem de serviço
+Sprint 7 Atualização e status da OS
+Sprint 8 Relatórios básicos
+Sprint 9 Testes e validações
+Sprint 10 Ajustes finais e entrega
+2. TEMPLATE DE SPRINT
+1. Planejamento
+• Definir tarefas (Backlog)
+• Estimar tempo
+• Definir responsáveis
+2. Desenvolvimento
+• Codificação
+• Versionamento
+3. Testes
+• Testes internos
+• Correções
+4. Revisão
+• Validação com cliente
+• Ajustes
+5. Entrega
+• Publicação da versão
+• Feedback
+3. EXEMPLO DE KANBAN (KAMBAM)
+Sprint 6: Criação de Ordem de Serviço
+Quadro Kanban
+A Fazer Em Andamento Concluído
+Criar tela OS Criar API OS Banco de dados
+Validar campos Testar cadastro Estrutura inicial
+Criar botão salvar Ajustar layout
+Baseado no material:
+• divisão de tarefas
+• acompanhamento contínuo
+• comunicação da equipe
+4. GRÁFICO DE GANTT (1 SPRINT)
+Sprint 6 (Duração: 2 semanas)
+Tarefa Dias
+Planejamento 1–2
+Desenvolvimento Backend 3–6
+Tarefa Dias
+Desenvolvimento Frontend 5–8
+Testes 9–10
+Revisão 11–12
+Entrega 13–14
+5. DESCRIÇÃO DO SISTEMA
+Sistema de Ordem de Serviço
+Funcionalidades:
+• Cadastro de usuários
+• Cadastro de clientes
+• Cadastro de serviços
+• Abertura de OS
+• Atualização de status
+• Relatórios
+6. EMBASAMENTO TEÓRICO
+Comunicação
+• reuniões rápidas e constantes
+• alinhamento com cliente
+Gerenciamento de requisitos
+• definição de tarefas
+• planejamento e divisão
+Modelo de projeto
+• uso de ciclos (Sprints)
+• refinamento contínuo
+Metodologia ágil (Scrum)
+• backlog
+• sprints
+• entregas incrementais
+Equipe
+• desenvolvedor
+• gerente
+• cliente
+• testes
+7. CONCLUSÃO
+O sistema foi planejado com base em:
+• metodologia ágil
+• divisão em Sprints
+• entregas contínuas
+• foco em comunicação
+Isso garante:
+• maior controle do projeto
+• adaptação a mudanças
+• melhor qualidade final
