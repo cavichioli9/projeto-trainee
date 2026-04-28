@@ -1,93 +1,106 @@
 1. ROADMAP DO PROJETO (10 SPRINTS)
-• definição de requisitos
-• planejamento
-• ciclos ágeis (Sprints)
-• revisão e entrega contínua
-Roadmap Geral
-Sprint Objetivo Principal
-Sprint 1 Levantamento de requisitos e planejamento
-Sprint 2 Modelagem do sistema (protótipo e arquitetura)
-Sprint 3 Cadastro de usuários
-Sprint 4 Cadastro de clientes
-Sprint 5 Cadastro de serviços
-Sprint 6 Criação de ordem de serviço
-Sprint 7 Atualização e status da OS
-Sprint 8 Relatórios básicos
-Sprint 9 Testes e validações
-Sprint 10 Ajustes finais e entrega
-2. TEMPLATE DE SPRINT
-1. Planejamento
-• Definir tarefas (Backlog)
-• Estimar tempo
-• Definir responsáveis
-2. Desenvolvimento
-• Codificação
-• Versionamento
-3. Testes
-• Testes internos
-• Correções
-4. Revisão
-• Validação com cliente
-• Ajustes
-5. Entrega
-• Publicação da versão
-• Feedback
-3. EXEMPLO DE KANBAN (KAMBAM)
-Sprint 6: Criação de Ordem de Serviço
-Quadro Kanban
-A Fazer Em Andamento Concluído
-Criar tela OS Criar API OS Banco de dados
-Validar campos Testar cadastro Estrutura inicial
-Criar botão salvar Ajustar layout
-Baseado no material:
-• divisão de tarefas
-• acompanhamento contínuo
-• comunicação da equipe
-4. GRÁFICO DE GANTT (1 SPRINT)
-Sprint 6 (Duração: 2 semanas)
-Tarefa Dias
-Planejamento 1–2
-Desenvolvimento Backend 3–6
-Tarefa Dias
-Desenvolvimento Frontend 5–8
-Testes 9–10
-Revisão 11–12
-Entrega 13–14
+
+Para o desenvolvimento do sistema foi adotada a metodologia ágil, dividindo o projeto em 10 sprints para facilitar a organização e o acompanhamento das entregas.
+
+Planejamento das Sprints
+Sprint	Atividade
+Sprint 1	Levantamento dos requisitos e planejamento inicial
+Sprint 2	Modelagem do sistema e prototipação
+Sprint 3	Desenvolvimento do cadastro de usuários
+Sprint 4	Desenvolvimento do cadastro de clientes
+Sprint 5	Implementação do cadastro de serviços
+Sprint 6	Criação da ordem de serviço
+Sprint 7	Atualização de status e acompanhamento da OS
+Sprint 8	Desenvolvimento dos relatórios
+Sprint 9	Testes e correção de erros
+Sprint 10	Ajustes finais e entrega do projeto
+2. ESTRUTURA DE UMA SPRINT
+
+Cada sprint foi organizada em etapas para garantir melhor controle do desenvolvimento:
+
+Planejamento
+Definição das tarefas do backlog
+Estimativa de tempo
+Distribuição das atividades
+Desenvolvimento
+Codificação das funcionalidades
+Integração dos módulos
+Controle de versão
+Testes
+Testes internos
+Correção de falhas encontradas
+Revisão
+Validação com o cliente
+Ajustes solicitados
+Entrega
+Disponibilização da versão concluída
+Coleta de feedback
+3. EXEMPLO DE KANBAN
+Sprint 6 — Criação da Ordem de Serviço
+A Fazer	Em Andamento	Concluído
+Criar tela da OS	Desenvolvimento da API	Banco de dados criado
+Validar campos	Testes do cadastro	Estrutura inicial pronta
+Criar botão salvar	Ajustes no layout	Cadastro básico finalizado
+
+O uso do Kanban auxiliou em:
+
+Divisão das tarefas
+Acompanhamento do progresso
+Organização da equipe
+Comunicação entre os envolvidos
+4. CRONOGRAMA (GANTT DA SPRINT 6)
+
+Duração prevista: 2 semanas
+
+Atividade	Dias
+Planejamento	1–2
+Desenvolvimento Backend	3–5
+Desenvolvimento Frontend	6–8
+Testes	9–10
+Revisão	11–12
+Entrega	13–14
 5. DESCRIÇÃO DO SISTEMA
-Sistema de Ordem de Serviço
+
+O projeto consiste em um sistema de Ordem de Serviço para auxiliar no controle e gerenciamento dos atendimentos.
+
 Funcionalidades:
-• Cadastro de usuários
-• Cadastro de clientes
-• Cadastro de serviços
-• Abertura de OS
-• Atualização de status
-• Relatórios
+Cadastro de usuários
+Cadastro de clientes
+Cadastro de serviços
+Abertura de ordens de serviço
+Atualização de status
+Emissão de relatórios
 6. EMBASAMENTO TEÓRICO
+
+O desenvolvimento foi baseado em conceitos de gerenciamento de projetos e metodologias ágeis.
+
 Comunicação
-• reuniões rápidas e constantes
-• alinhamento com cliente
-Gerenciamento de requisitos
-• definição de tarefas
-• planejamento e divisão
-Modelo de projeto
-• uso de ciclos (Sprints)
-• refinamento contínuo
-Metodologia ágil (Scrum)
-• backlog
-• sprints
-• entregas incrementais
-Equipe
-• desenvolvedor
-• gerente
-• cliente
-• testes
+Reuniões rápidas para alinhamento
+Contato constante com o cliente
+Acompanhamento das atividades
+Gerenciamento de Requisitos
+Levantamento das necessidades
+Planejamento das tarefas
+Controle das entregas
+Metodologia Scrum
+Uso de backlog
+Organização por sprints
+Entregas incrementais
+Melhorias contínuas
+Equipe Envolvida
+Desenvolvedor
+Gerente do projeto
+Cliente
+Responsável por testes
 7. CONCLUSÃO
-O sistema foi planejado com base em:
-• metodologia ágil
-• divisão em Sprints
-• entregas contínuas
-• foco em comunicação
-Isso garante:
-• maior controle do projeto
-• adaptação a mudanças
-• melhor qualidade final
+
+O projeto foi estruturado com base em metodologia ágil, utilizando sprints e entregas contínuas para melhorar o controle e a qualidade do desenvolvimento.
+
+Essa abordagem permite:
+
+Melhor organização do projeto
+Facilidade para adaptação a mudanças
+Maior acompanhamento das tarefas
+Melhor qualidade na entrega final
+
+Dessa forma, o sistema foi planejado para atender os requisitos com eficiência e organização.
