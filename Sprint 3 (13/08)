@@ -1,0 +1,103 @@
+Documentação da Sprint – 13/08 (PIESC)
+Projeto: Chatbot de WhatsApp para Atendimento Automatizado
+Cliente / ES: Instituto Mentes em Desenvolvimento
+Equipe: Gabriel Ferreira Miquelin (207912-25), Rodrigo Piques (208488-25), Afonso
+Cavichioli (204713-25)
+1. Backlog da Sprint (13/08)
+Histórias de usuário e tarefas técnicas focadas no MVP do chatbot para a gestão de
+agendamentos e atendimento inicial aos pais/responsáveis.
+ID Item / História de Usuário Responsável Prioridade Status
+US01
+Autenticação via QR
+Code & Sessão Local:
+Configuração do
+whatsapp-web.js em
+Node.js com salvamento de
+sessão.
+Gabriel
+Miquelin Alta Concluído
+US02
+Menu Interativo de
+Opções: Apresentação da
+instituição, dúvidas
+frequentes e orientação a
+novos pacientes.
+Rodrigo
+Piques Alta Concluído
+US03
+Fluxo de Solicitação de
+Agendamento: Coleta
+inicial de dados do
+responsável e preferências
+de horário.
+Afonso
+Cavichioli Alta Em
+Andamento
+US04
+Transbordo para
+Atendimento Humano:
+Opção de encaminhar a
+conversa para a equipe
+pedagógica.
+Gabriel
+Miquelin Média Em
+Andamento
+ID Item / História de Usuário Responsável Prioridade Status
+US05
+Disparo de Lembretes
+Automáticos:
+Configuração de
+mensagens de confirmação
+e lembretes de sessão.
+Equipe Dev Média A Fazer
+2. Changelog (Sprint 13/08)
+Registro dos artefatos técnicos, melhorias e correções da versão atual do código em
+repositório.
+Novas Funcionalidades (Features)
+ Conectividade: Implementada a inicialização do bot via whatsapp-web.js com
+geração de QR Code no terminal.
+ Controle de Sessão: Adicionado armazenamento de sessão (session-data) para
+manter o bot autenticado sem reconexões manuais.
+ Simulação Humana: Adicionados indicadores visuais de digitação (typing status) e
+controle de chamadas assíncronas por usuário.
+ Documentação Técnica: Criação do README.md detalhando a visão geral, prérequisitos e execução do projeto.
+Correções & Ajustes
+ Corrigida a tratativa de erros de desconexão e reinicialização da instância do cliente
+Node.js.
+ Ajustados os tempos de atraso (delays) de resposta automatizada para evitar
+bloqueios na API do WhatsApp.
+3. Roadmap Completo (Até a Entrega Final do 3º
+Bimestre)
+O Roadmap a seguir prevê as entregas incrementais por bimestre, combinadas com o
+versionamento e empacotamento do repositório (snapshot/zip) no encerramento de cada
+etapa.
+[13/08 - Sprint Atual] ➜ [Fim do 3º Bimestre] ➜ [4º Bimestre
+(Homologação)]
+Bot Core + Auth QR Code Fluxo de Agendamento Treinamento na ES
++ Testes
+Marco 1: Entrega Atual (Sprint 13/08)
+ Foco: Diagnóstico ambiental, setup do ambiente Node.js, engine base do chatbot e
+protótipo interativo.
+ Entregáveis:
+o Documento de Diagnóstico Ambiental e Plano de Ação assinado.
+o Repositório de Código v0.1 (chat_suporte.zip) contendo autenticação por
+QR Code e menu inicial interativo.
+Marco 2: Encerramento do 3º Bimestre (Final de Setembro)
+ Foco: Conclusão dos fluxos de agendamento automático, envio de lembretes e
+regras de transbordo para atendimento humano.
+ Entregáveis:
+o Changelog & Backlog do 3º Bimestre: Documentação completa das
+estórias entregues.
+o Pacote do Repositório (PIESC_Bot_v1.0_3Bimestre.zip): Código-fonte
+estável com todas as rotas e fluxos configurados.
+o Demonstração Funcional: Vídeo/Apresentação do bot realizando triagem e
+agendamento simulado.
+Marco 3: Validação, Implantação & Encerramento no 4º Bimestre
+(Outubro / Novembro)
+ Foco: Validação com a equipe do Instituto Mentes em Desenvolvimento,
+treinamento dos operadores humanos e aferição dos indicadores de desempenho
+(tempo de resposta, satisfação e redução de erros).
+ Entregáveis:
+o Relatório Final com evidências de uso prático na Entidade Social.
+o Versão Final do Repositório (PIESC_Bot_Final.zip): Projeto completo
+para transição e sustentabilidade da ES.
